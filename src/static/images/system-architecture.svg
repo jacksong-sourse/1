@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="400" rx="10" fill="#F5F7FA"/>
+  
+  <!-- 系统架构图 -->
+  <g transform="translate(50, 30)">
+    <!-- 标题 -->
+    <text x="250" y="30" font-family="PingFang SC, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2C3E50">医学AI助手系统架构</text>
+    
+    <!-- 三层架构框架 -->
+    <!-- 智能调度层 -->
+    <rect x="100" y="70" width="400" height="80" rx="8" fill="#3498DB" fill-opacity="0.1" stroke="#3498DB" stroke-width="2"/>
+    <text x="300" y="100" font-family="PingFang SC, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#3498DB">智能调度层</text>
+    <text x="300" y="130" font-family="PingFang SC, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">领域意图解析 · 三维匹配矩阵 · 模型动态路由</text>
+    
+    <!-- 知识生产层 -->
+    <rect x="100" y="170" width="400" height="80" rx="8" fill="#2ECC71" fill-opacity="0.1" stroke="#2ECC71" stroke-width="2"/>
+    <text x="300" y="200" font-family="PingFang SC, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2ECC71">知识生产层</text>
+    <text x="300" y="230" font-family="PingFang SC, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">多模型协同推理 · 知识清洗流水线 · 知识质量评估</text>
+    
+    <!-- 智能知识库 -->
+    <rect x="100" y="270" width="400" height="80" rx="8" fill="#9B59B6" fill-opacity="0.1" stroke="#9B59B6" stroke-width="2"/>
+    <text x="300" y="300" font-family="PingFang SC, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#9B59B6">智能知识库</text>
+    <text x="300" y="330" font-family="PingFang SC, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">三级存储结构 · 动态权重算法 · 反馈优化器</text>
+    
+    <!-- 连接线 -->
+    <path d="M300 150L300 170" stroke="#2C3E50" stroke-width="2" stroke-dasharray="4 4"/>
+    <path d="M300 250L300 270" stroke="#2C3E50" stroke-width="2" stroke-dasharray="4 4"/>
+    
+    <!-- 用户 -->
+    <circle cx="300" cy="20" r="10" fill="#E74C3C"/>
+    <path d="M300 30L300 70" stroke="#E74C3C" stroke-width="2"/>
+    
+    <!-- 数据流向箭头 -->
+    <path d="M80 120L60 120L60 300L80 300" stroke="#2C3E50" stroke-width="2" stroke-dasharray="4 4"/>
+    <polygon points="80,310 90,300 80,290" fill="#2C3E50"/>
+    
+    <path d="M520 300L540 300L540 120L520 120" stroke="#2C3E50" stroke-width="2" stroke-dasharray="4 4"/>
+    <polygon points="520,110 510,120 520,130" fill="#2C3E50"/>
+  </g>
+</svg>
